@@ -33,6 +33,11 @@ constructor(private val repo: UserRepository) {
 
     @RequestMapping("/greeting")
     fun greeting(@RequestParam(value = "name", required = false, defaultValue = "World") name: String, model: Model): String {
+        val user = AppUser().apply {
+            username = "Sebulba"
+        }
+
+        repo.save(user)
         model.addAttribute("name", System.getenv("MAGNUS"))
         model.addAttribute("repoCount", repo.count())
         return "greeting"
@@ -46,10 +51,10 @@ constructor(private val repo: UserRepository) {
 class AppUser {
 
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
-    private var id: Long? = null
+    var id: Long? = null
 
     @NotNull
-    private var username: String? = null
+    var username: String? = null
 
 }
 
