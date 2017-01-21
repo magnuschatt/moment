@@ -37,6 +37,7 @@ constructor(private val repo: UserRepository) {
             username = "Sebulba"
         }
 
+
         repo.save(user)
         model.addAttribute("name", System.getenv("MAGNUS"))
         model.addAttribute("repoCount", repo.count())
