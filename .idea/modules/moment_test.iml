@@ -73,6 +73,7 @@
                     <option value="C:\Users\Chatt\.IdeaIC2016.3\config\plugins\Kotlin\kotlinc\lib\allopen-compiler-plugin.jar" />
                     <option value="C:\Users\Chatt\.IdeaIC2016.3\config\plugins\Kotlin\kotlinc\lib\allopen-compiler-plugin.jar" />
                     <option value="C:\Users\Chatt\.IdeaIC2016.3\config\plugins\Kotlin\kotlinc\lib\allopen-compiler-plugin.jar" />
+                    <option value="C:\Users\Chatt\.IdeaIC2016.3\config\plugins\Kotlin\kotlinc\lib\allopen-compiler-plugin.jar" />
                   </array>
                 </option>
                 <option name="pluginOptions">
@@ -116,6 +117,7 @@
     <orderEntry type="module" module-name="moment_main" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.0.6" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.exposed:exposed:0.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.postgresql:postgresql:9.4.1212.jre7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-devtools:1.4.3.RELEASE" level="project" />

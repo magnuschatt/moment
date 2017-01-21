@@ -23,12 +23,13 @@ apply plugin: 'org.springframework.boot'
 
 repositories {
     mavenCentral()
-    maven { url "http://dl.bintray.com/kotlin/exposed" }
+//    maven { url "http://dl.bintray.com/kotlin/exposed" }
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile 'org.jetbrains.exposed:exposed:0.7.5'
+//    compile 'org.jetbrains.exposed:exposed:0.7.5'
+    compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212.jre7'
     compile "org.springframework.boot:spring-boot-starter-thymeleaf"
     compile "org.springframework.boot:spring-boot-starter-data-jpa"
     compile "org.springframework.boot:spring-boot-devtools"
